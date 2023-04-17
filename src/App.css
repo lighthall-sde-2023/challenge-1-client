@@ -1,0 +1,55 @@
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: white;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border: white 2px solid;
+  background-color: transparent;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.App {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.interaction {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.items-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 80%;
+  gap: 20px;
+  overflow-y: overlay;
+  margin: 0px;
+  padding: 0px;
+}
+
+.count-item {
+  display: flex;
+  justify-content: space-between;
+}
